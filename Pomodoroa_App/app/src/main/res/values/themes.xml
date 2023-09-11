@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Pomodoro_App" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorPrimaryVariant" >@color/leght_black</item>
+    </style>
+
+
+
+
+
+</resources>
