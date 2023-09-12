@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">log_in_page</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">الايميل</string>
+    <string name="enter_your_email">ادخل الايميل الخاص بك</string>
+    <string name="enter_password">ادخل كلمة المرور</string>
+    <string name="Login_2">تسجيل الدخول</string>
+    <string name="need_an_account">تسيجيل الدخول بحساب جديد</string>
+    <string name="sign_up">تسجيل الدخول لاول مرة</string>
+    <string name="forgetpassword">هل نسيت كلمة المرور!؟</string>
+</resources>

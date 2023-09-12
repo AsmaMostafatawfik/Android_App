@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/order_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="ORDER DRINK"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Select Your Drink"
+        app:boxStrokeColor="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_text"
+        tools:ignore="HardcodedText">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_filed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:text="Water"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price : "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/drink_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="16dp"
+        android:text="5 E.L"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/price_text"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/submit_order"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        android:textSize="20sp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_text"
+        tools:ignore="HardcodedText,MissingConstraints,SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">log_in_page</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login" translatable="false">LOGIN</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="enter_your_email" translatable="false">enter your email</string>
+    <string name="enter_password" translatable="false">enter password</string>
+    <string name="Login_2" translatable="false">Login</string>
+    <string name="need_an_account" translatable="false">Need an account?</string>
+    <string name="sign_up" translatable="false">Sign up</string>
+    <string name="forgetpassword" translatable="false">Forget Password!?</string>
+</resources>

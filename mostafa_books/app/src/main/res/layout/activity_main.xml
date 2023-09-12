@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mostafa"
+        android:scaleType="centerCrop"
+        android:id="@+id/mostafa_mahmod"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Writer: Mostafa Mahmoud"
+        android:layout_below="@id/mostafa_mahmod"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple_500"
+        android:text="order"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:id="@+id/bottom"
+        android:layout_margin="8dp"
+
+        />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/secret"
+        android:scaleType="centerCrop"
+        android:layout_above="@id/bottom"
+        android:id="@+id/secret_book"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+
+        />
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/password"
+        android:layout_toLeftOf="@id/secret_book"
+        android:layout_above="@id/bottom"
+        />
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/book_1"
+        android:layout_toRightOf="@id/secret_book"
+        android:layout_above="@id/bottom"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/secret_book"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:rating="4.5"
+
+
+        />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">constraint_layout</string>
+    <string name="dilvery">Quick delivery</string>
+    <string name="order">Now you can order food any time right from your mobile</string>
+</resources>

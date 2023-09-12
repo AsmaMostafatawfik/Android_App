@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/pizze"
+        android:scaleType="centerCrop"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Calorie counting"
+        android:background="@color/purple_500"
+
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#BC5C3E"
+        android:gravity="center"
+        android:text="1000 cal"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/porger_image"
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/porger2" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/porger_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chicken" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/porger_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/salat" />
+</RelativeLayout>
